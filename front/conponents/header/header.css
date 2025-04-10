@@ -1,0 +1,58 @@
+.header_component{
+    min-height: 50px;
+    min-width: 95%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
+.header_component header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+}
+.header_component header nav{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header_component header nav ol{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.header_component header nav ol li{
+    min-width: 80px;
+    padding: .5rem .3rem;
+    margin: 0% .2%;
+}
+
+.header_component header div{
+    height: 100px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header_component header div span{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to left ,violet , rgb(63, 2, 32));
+    border-radius: 100%;
+}
+
+.header_component header div h2{
+    background: linear-gradient(to left ,rgb(248, 12, 150) 50%, rgba(156, 6, 124, 0.726));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}

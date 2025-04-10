@@ -1,0 +1,237 @@
+.main_component{
+    margin-top: 100px;
+    width: 95%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_sub_component{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.main_sub_component_sec{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.main_sub_component h1{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.main_sub_component small{
+    margin: .5rem 0rem;
+}
+.main_component h1{
+    margin: .2rem 0rem;
+}
+.main_sub_component a{
+    margin: 1rem 0rem;
+}
+.desce{
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+
+.main_sub_component_abou_me_sec{
+    margin-top: 100px;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.main_sub_component_abou_me_sec > h2{
+   font-size: 2.5rem;
+   font-weight: 500;
+}
+.mim{
+    color: rgb(185, 133, 233);
+    border-bottom: 3px solid violet;
+}
+.rocho{
+    color: rgb(185, 133, 233);
+}
+.div_me{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 5rem;
+}
+.div_me_img{
+    min-width: 300px;
+    height: 300px;
+    background-image: url("/eu2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 40px 80%;
+
+}
+.div_me_about{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+.div_me_about p{
+    margin: .9rem 0rem;
+    line-height: 1.5rem;
+}
+.div_me_about > span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+}
+.div_me_about ol li{
+    text-align: start;
+    margin: .5rem 0rem;
+}
+.div_me_about button{
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border:1px solid rgb(185, 133, 233);
+    font-size: 1rem;
+
+}
+
+
+
+.main_sub_component_projetos{
+    padding-top: 100px;
+    width: 100%;
+}
+.main_sub_component_projetos h2{
+    font-size: 2rem;
+}
+
+.projetos_lists{
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.projet_div{
+    width: 30%;
+    max-width: 300px;
+    min-height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 26);
+    margin-top: 2rem;
+    padding-bottom: .2rem;
+}
+.projet_div span{
+    height: 200px;
+    background-image: url("/p1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+}
+.projet_div h3{
+    padding: .2rem 0rem 0rem .5rem;
+}
+.projet_div p{
+    padding: .2rem .5rem;
+    width: 100%;
+}
+.projet_div ol{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.projet_div ol li{
+    width: 70px;
+    margin: .2rem 0rem;
+}
+.projet_div small{
+    background-color: rgba(128, 128, 128, 0.247);
+    width: 60px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: .8rem;
+    border-radius: 19px;
+    display: flex;
+}
+.projet_div small:first-of-type{
+    margin: 0rem 0rem 0rem .5rem;
+}
+
+
+.main_sub_component_experiencias{
+    width: 95%;
+    padding-top: 100px;
+}
+.main_sub_component_experiencias h2{
+   width: 100%;
+   font-size: 2rem;
+   margin-bottom: 50px;
+}
+
+
+.main_sub_component_experiencias ol{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.main_sub_component_experiencias ol li{
+    background-color: rgb(40, 41, 41);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.main_sub_component_experiencias ol li span{
+    width: 60px;
+    height: 60px;
+}
+
+.main_sub_component_experiencias ol li > div{
+    width: 150px;
+    height: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: grey;
+}
+.main_sub_component_experiencias ol li > div div{
+    width: 90%;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to left ,violet , rgb(63, 2, 32));
+}
