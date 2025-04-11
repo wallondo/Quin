@@ -63,7 +63,7 @@ export default function Main(){
                 <section className="main_sub_component_sec">
                     <h1>Olá, eu sou o <br /> <span className="name">Quinguri.</span></h1>
                     <small>Sadraque <span className="name">Quinguri</span></small>
-                    <h2>Desenvolvedor Frontend, <br /> 
+                    <h2>Desenvolvedor Front-End, <br /> 
                        <span className="back">Tanbém atuo como Desenvolvedor Back-End </span> <br />
                      Vamos trabalhar?</h2>
                       <a href="#projetos" className="bt_link">Ver Projetos</a>
@@ -83,11 +83,13 @@ export default function Main(){
 
                             </div>
                             <article className="div_me_about">
-                                     <h2><span className="rocho">Sadraque Quinguri</span> Desenvolvedor Frontend Criativo</h2>
+                                     <h2><span className="rocho">Sadraque Quinguri</span> Desenvolvedor Front-End.</h2>
                                      <p>
-                                       Sou um desenvolvedor apaixonado por criar experiências digitais únicas e memoráveis. 
-                                       Combinando design inovador com código robusto, meu objetivo é construir projetos que 
-                                       não apenas funcionem perfeitamente, mas também contem histórias visuais.
+                                         Sou um desenvolvedor apaixonado por criar experiências digitais únicas e memoráveis.  <br />
+                                        <span className="rocho2"> Além disso, atuo como desenvolvedor Back-End</span> sempre que necessário, assegurando a integração e o funcionamento eficaz de todas as camadas do projeto. <br />
+                                         Combinando design inovador com código robusto,<span className="rocho2"> meu objetivo é construir projetos que não apenas funcionem perfeitamente, mas também contem histórias visuais.</span>  <br />
+                                         <span className="rocho2">Trabalhando em estreita colaboração com meu designer</span>, consigo realizar interfaces intuitivas e agradáveis, garantindo uma excelente experiência para o usuário.
+
                                      </p>
                                      <span>
                                         <ol>
@@ -105,7 +107,7 @@ export default function Main(){
                                      <div className="mais_sobre alt" id="mais_me">
                                              <h3><span className="rocho">Mais Sobre mim</span></h3>
                                              <p>
-                                                  Olá! Meu nome é <i>Sadraque Quinguri</i> e sou <span className="rocho2">desenvolvedor web com mais de 2 anos de experiência</span> na área, atuando como <span className="rocho2">desenvolvedor júnior</span> Tanto no <span className="rocho2">Frontend e Backend, sempre que necessário</span>. <br />
+                                                  Olá! Meu nome é <i>Sadraque Quinguri</i> e sou <span className="rocho2">desenvolvedor web com mais de 2 anos de experiência</span> na área, atuando como <span className="rocho2">desenvolvedor júnior</span> Tanto no <span className="rocho2">Front-End e Backend, sempre que necessário</span>. <br />
                                                   Tenho um forte compromisso com o aprendizado contínuo e me especializo em criar soluções funcionais e responsivas para a web, sempre focando na experiência do usuário. <br /> <br />
                                                   Além do desenvolvimento web, sou <span className="rocho2">estudante de língua inglesa há 1 ano e 4 meses</span>, com o objetivo de aprimorar minha comunicação e alcançar a fluência. <br />
                                                   Acredito que a combinação de minhas habilidades técnicas e minha dedicação ao aprendizado constante me permite entregar sempre soluções de qualidade. <br />
@@ -114,18 +116,18 @@ export default function Main(){
                                              </p>
                                              <h3><span className="rocho">Passatempos</span></h3>
                                              <p>
-                                                 - Nos meus momentos de lazer, me dedico à calistenia,Fisiculturismo, natação e caminhadas, atividades que me ajudam a manter o equilíbrio entre mente e corpo.
+                                                 - Nos meus momentos de lazer, me dedico à <span className="rocho2">calistenia,Fisiculturismo, natação e caminhadas,</span> atividades que me ajudam a manter o equilíbrio entre mente e corpo.
                                                 <br />
                                                 Com uma mentalidade focada no aprendizado contínuo e na adaptação às mudanças, estou sempre em busca de desafios que me ajudem a evoluir como profissional e ser humano.
                                              </p>
                                              <h3><span className="rocho">Objetivos</span></h3>
-                                             <p>- Ser útil a todos: Meu principal objetivo é agregar valor e ser útil para as equipes e projetos aos quais sou envolvido. Por isso, estou me candidatando a essa vaga, com a intenção de contribuir com minhas habilidades e, ao mesmo tempo, continuar aprendendo e me desenvolvendo profissionalmente.
+                                             <p>- <span className="rocho2">Ser útil a todos:</span> Meu principal objetivo é agregar valor e ser útil para as equipes e projetos aos quais sou envolvido. <span className="rocho2">Por isso, estou me candidatando a essa vaga,</span> com a intenção de contribuir com minhas habilidades e, ao mesmo tempo, continuar aprendendo e me desenvolvendo profissionalmente.
                                              </p>
-                                             <p>- Continuar o aprendizado na área: Tenho a prioridade de continuar aprofundando meus conhecimentos na área de desenvolvimento web, aplicando o que aprendi em projetos reais e mantendo-me atualizado com as tendências e novas tecnologias do mercado.
+                                             <p>- <span className="rocho2">Continuar o aprendizado na área:</span> Tenho a prioridade de continuar aprofundando meus conhecimentos na área de desenvolvimento web, aplicando o que aprendi em projetos reais e mantendo-me atualizado com as tendências e novas tecnologias do mercado.
                                              </p>
                                              <h3><span className="rocho">Foco:</span></h3>
-                                             <p>- Crescer continuamente: Meu foco é evoluir constantemente, tanto como profissional quanto como pessoa. Estou comprometido com meu desenvolvimento e acredito que, ao investir em novos aprendizados e desafios, posso alcançar um crescimento exponencial.</p>
-                                             <h3 className="grato"><span className="rocho">Fico lisonjeado  por ter chegado até esta etapa. <br /> Estou ansioso pela sua resposta.</span></h3>
+                                             <p>- <span className="rocho2">Crescer continuamente:</span> Meu foco é evoluir constantemente, tanto como profissional quanto como pessoa. Estou comprometido com meu desenvolvimento e acredito que, ao investir em novos aprendizados e desafios, posso alcançar um crescimento exponencial.</p>
+                                             <h3 className="grato"><span className="rocho">Fico lisonjeado  por ter chegado até esta etapa. <br /> Estou ansioso pela sua Convite !!!</span></h3>
                                      </div>
                             </article> 
                       </div>
