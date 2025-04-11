@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./main.css";
 
 export default function Main(){
@@ -53,10 +53,12 @@ export default function Main(){
             
         }
     ])
+  
    const mais_me = ()=>{
        document.getElementById("mais_me").classList.toggle("alt")
    }
-
+   
+   document
     return(
         <div className="main_component">
             <main className="main_sub_component">
@@ -149,7 +151,7 @@ export default function Main(){
                                      <ol>
                                        {
                                            proj.tecs.map((tec,po)=>(
-                                             <li> <small key={po+pos}>{tec}</small></li>
+                                             <li> <small key={po+Math.random()*1000}>{tec}</small></li>
                                           ))
                                          }
                                      </ol>

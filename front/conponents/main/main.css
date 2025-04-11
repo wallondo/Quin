@@ -148,14 +148,16 @@
 
 .projet_div{
     width: 30%;
-    max-width: 300px;
-    min-height: 350px;
+    min-width: 280px;
+    /* max-width: 300px; */
+    flex-grow: 1;
+    min-height: 300px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(24, 24, 26);
-    margin-top: 2rem;
+    margin: 2rem 1rem;
     padding-bottom: .2rem;
 }
 .projet_div span{

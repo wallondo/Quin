@@ -32,7 +32,16 @@
     padding: .5rem .3rem;
     margin: 0% .2%;
 }
+.option{
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 
+}
 .header_component header div{
     height: 100px;
     min-width: 100px;

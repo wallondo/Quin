@@ -7,9 +7,11 @@
     color: white;
     scroll-behavior: smooth;
 }
+.off{
+  display: none !important;
+}
 ::-webkit-scrollbar {
     width: 12px; /* Largura da barra de rolagem vertical */
-    height: 120px; /* Altura da barra de rolagem horizontal */
     background-color: black;
     scroll-behavior: smooth;
   }
