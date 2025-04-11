@@ -57,7 +57,12 @@ export default function Main(){
    const mais_me = ()=>{
        document.getElementById("mais_me").classList.toggle("alt")
    }
-   
+   const cv = ()=>{
+        const link = document.createElement('a');
+        link.href = '/cv.pdf'; // caminho relativo
+        link.download = 'cv.pdf';
+        link.click();
+   }
    document
     return(
         <div className="main_component">
@@ -104,7 +109,7 @@ export default function Main(){
                                         </ol>
                                      </span>
                                      <span>
-                                       <button onClick={mais_me}>Mais sobre mim</button> <button>Download CV</button>
+                                       <button onClick={mais_me}>Mais sobre mim</button> <button onClick={cv}>Download CV</button>
                                      </span>
                                           <div className="mais_sobre alt" id="mais_me">
                                              <h3><span className="rocho">Mais Sobre mim</span></h3>
