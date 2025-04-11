@@ -23,11 +23,20 @@ export default function Header(){
           handleResize();
          return () => window.removeEventListener('resize', handleResize);
        }, []);
-      
-
+    const mastrar = ()=>{
+          document.getElementById("nav_responsive").classList.toggle("left")
+    }
+    
     return(
         <div className="header_component">
               <header className="components_sub">
+                    <ol className="nav_responsive left" id="nav_responsive">
+                       <li><a href="#sobre">Sobre</a></li>
+                       <li><a href="#projetos">Projetos</a></li>
+                       <li><a href="#experiencias">Experiencias</a></li>
+                       <li><a href="#qualidades">Qualidades</a></li>
+                       <li><a href="#contato">Contato</a></li>
+                    </ol>
                     <div>
                         <span className="log">
                             <img src="/log.png" alt="" />
@@ -43,7 +52,7 @@ export default function Header(){
                             <li><a href="#contato">Contato</a></li>
                         </ol>
                     </nav>
-                    <span className="option off" id="option"><img src="/opt.png" alt="" /></span>
+                    <span className="option off" id="option" onClick={mastrar}><img src="/opt.png" alt="" /></span>
               </header>
         </div>
     )

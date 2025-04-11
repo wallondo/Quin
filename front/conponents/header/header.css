@@ -9,6 +9,9 @@
     z-index: 1;
 
 }
+.components_sub{
+    position: relative;
+}
 .header_component header{
     display: flex;
     justify-content: space-between;
@@ -41,6 +44,21 @@
     justify-content: center;
     cursor: pointer;
 
+}
+.nav_responsive{
+    position: absolute;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.486);
+    top: 100px;
+    left: 0px;
+    transition: all 1s ease-out;
+}
+.nav_responsive li{
+    margin: 1rem 0rem;
 }
 .header_component header div{
     height: 100px;

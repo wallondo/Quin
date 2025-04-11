@@ -106,14 +106,16 @@ button{
     min-height: 0px !important;
 }
 
-
+.left{
+    left: -101% !important;
+}
 
 
 
 
 
 /* hover */
-nav a:hover{
+header a:hover{
     border-bottom: 3px solid rgb(201, 10, 137);
 }
 
@@ -149,6 +151,12 @@ nav a:hover{
 .main_sub_component_components_qualidades ol li:hover{
     background-color: rgb(41, 40, 40);
     transform: translateY(10px);
+}
+.option{
+    transition: all .8s;
+}
+.option:hover{
+    transform: translateY(5px);
 }
 
 
