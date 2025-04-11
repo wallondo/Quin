@@ -91,3 +91,70 @@ img{
 button{
     cursor: pointer;
 }
+.back{
+    font-size: .9rem;
+}
+.rocho2{
+    color: rgb(243, 195, 243);
+}
+
+.alt{
+    height: 1px !important;
+    overflow: hidden !important;
+    min-height: 0px !important;
+}
+
+
+
+
+
+
+
+/* hover */
+nav a:hover{
+    border-bottom: 3px solid rgb(201, 10, 137);
+}
+
+.main_sub_component a:hover{
+     box-shadow: 1px 1px 8px rgb(168, 3, 105);
+}
+.main_sub_component a:active{
+    color: black;
+}
+.div_me_about button:hover{
+    box-shadow: 1px 1px 6px rgb(185, 133, 233);
+}
+.div_me_about button:active{
+    color: blueviolet;
+}
+.projet_div{
+    transition: all .5s;
+}
+.projet_div:hover{
+    transform: translateY(10px);
+}
+.main_sub_component_experiencias ol li{
+    transition: all .4s ease-in-out;
+
+}
+.main_sub_component_experiencias ol li:hover{
+    transform: translateY(-10px);
+    background-color: rgb(76, 77, 77);
+}
+.main_sub_component_components_qualidades ol li{
+    transition: all .4s ease-in-out;
+}
+.main_sub_component_components_qualidades ol li:hover{
+    background-color: rgb(41, 40, 40);
+    transform: translateY(10px);
+}
+
+
+
+
+
+
+
+
+
+

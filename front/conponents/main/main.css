@@ -30,6 +30,9 @@
     font-weight: bold;
     text-align: center;
 }
+.main_sub_component_sec h2{
+    text-align: center;
+}
 .main_sub_component small{
     margin: .5rem 0rem;
 }
@@ -112,8 +115,18 @@
     font-size: 1rem;
 
 }
-
-
+.mais_sobre{
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    transition: all .3s ease-in-out;
+}
+.grato{
+    text-align: center;
+    width: 100%;
+}
 
 .main_sub_component_projetos{
     padding-top: 100px;
@@ -121,6 +134,7 @@
 }
 .main_sub_component_projetos h2{
     font-size: 2rem;
+  
 }
 
 .projetos_lists{
@@ -154,6 +168,11 @@
 }
 .projet_div h3{
     padding: .2rem 0rem 0rem .5rem;
+    background: linear-gradient(to left ,rgb(248, 12, 63) 50%, rgba(156, 6, 124, 0.726));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
 }
 .projet_div p{
     padding: .2rem .5rem;
@@ -184,7 +203,6 @@
     margin: 0rem 0rem 0rem .5rem;
 }
 
-
 .main_sub_component_experiencias{
     width: 95%;
     padding-top: 100px;
@@ -193,8 +211,8 @@
    width: 100%;
    font-size: 2rem;
    margin-bottom: 50px;
+   
 }
-
 
 .main_sub_component_experiencias ol{
     display: flex;
@@ -235,3 +253,61 @@
     border-radius: 5px;
     background: linear-gradient(to left ,violet , rgb(63, 2, 32));
 }
+
+.main_sub_component_experiencias ol h3{
+    background: linear-gradient(to left ,rgb(248, 12, 63) 50%, rgba(156, 6, 124, 0.726));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.main_sub_component_experiencias ol small{
+    background: linear-gradient(to left ,rgb(248, 12, 63) 50%, rgba(156, 6, 124, 0.726));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.main_sub_component_components_qualidades{
+    padding-top: 100px;
+    width: 100%;
+
+}
+.main_sub_component_components_qualidades ol{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main_sub_component_components_qualidades ol li h2{
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: .5rem;
+    background: linear-gradient(to left ,rgb(248, 12, 63) 50%, rgba(156, 6, 124, 0.726));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+
+}
+.main_sub_component_components_qualidades ol li{
+    width: 200px;
+    min-height: 300px;
+    margin: 1rem 0rem;
+    background-color: rgb(29, 28, 28);
+    border-radius: 10px;
+    padding: .3rem .2rem .3rem .2rem;
+    
+}
+
+.footer_component button:hover{
+    box-shadow: 1px 1px 6px rgb(212, 5, 150);
+}
+.footer_component button:active{
+    color: black;
+}
+
+
+
