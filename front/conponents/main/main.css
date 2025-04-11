@@ -295,8 +295,8 @@
 
 }
 .main_sub_component_components_qualidades ol li{
-    width: 200px;
-    min-height: 300px;
+    width: 32%;
+    min-height: 100px;
     margin: 1rem 0rem;
     background-color: rgb(29, 28, 28);
     border-radius: 10px;

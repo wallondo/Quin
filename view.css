@@ -1,9 +1,60 @@
-@media screen and (max-width: 730px) and (min-width: 361px) {
+@media screen and (max-width: 730px) and (min-width: 618px) {
     .projet_div{
-        width: 90% !important;
+        width: 47% !important;
+    }
+    .main_sub_component_sec h1{
+        font-size: 3rem !important;
+    }
+    .div_me{
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+    .div_me .div_me_img{
+        border-radius: 0% 0% 50% 50% !important;
+    }
+    .main_sub_component_components_qualidades ol li{
+        width: 37% !important;
+    }
+    .main_sub_component_experiencias ol li{
+        width: 47% !important;
     }
 }
-
-@media screen and (max-width: 360px) {
-
+@media screen and (max-width: 617px) and (min-width: 310px) {
+    .div_me{
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+    .div_me .div_me_img{
+        border-radius: 0% 0% 50% 50% !important;
+    }
+    .main_sub_component_experiencias ol li{
+        width: 47% !important;
+    }
+    .div_me_img{
+        width: 10% !important;
+    }
+    .main_sub_component_components_qualidades ol li{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 451px) and (min-width: 100px) {
+    .div_me{
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+    .main_sub_component_experiencias ol li{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 370px) {
+    .div_me_about > span{
+        flex-direction: column !important;
+        justify-content: space-around !important;
+    }
+    .div_me_about > span button{
+        margin: .5rem 0rem;
+    }
 }

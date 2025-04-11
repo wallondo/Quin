@@ -106,7 +106,7 @@ export default function Main(){
                                      <span>
                                        <button onClick={mais_me}>Mais sobre mim</button> <button>Download CV</button>
                                      </span>
-                                     <div className="mais_sobre alt" id="mais_me">
+                                          <div className="mais_sobre alt" id="mais_me">
                                              <h3><span className="rocho">Mais Sobre mim</span></h3>
                                              <p>
                                                   Olá! Meu nome é <i>Sadraque Quinguri</i> e sou <span className="rocho2">desenvolvedor web com mais de 2 anos de experiência</span> na área, atuando como <span className="rocho2">desenvolvedor júnior</span> Tanto no <span className="rocho2">Front-End e Backend, sempre que necessário</span>. <br />
@@ -130,7 +130,7 @@ export default function Main(){
                                              <h3><span className="rocho">Foco:</span></h3>
                                              <p>- <span className="rocho2">Crescer continuamente:</span> Meu foco é evoluir constantemente, tanto como profissional quanto como pessoa. Estou comprometido com meu desenvolvimento e acredito que, ao investir em novos aprendizados e desafios, posso alcançar um crescimento exponencial.</p>
                                              <h3 className="grato"><span className="rocho">Fico lisonjeado  por ter chegado até esta etapa. <br /> Estou ansioso pela sua Convite !!!</span></h3>
-                                     </div>
+                                          </div>
                             </article> 
                       </div>
                       <div>

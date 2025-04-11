@@ -20,7 +20,7 @@
 .footer_component form{
     min-width: 250px;
     height: 350px;
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
 }
 
 .footer_component address{
-    width: 400px;
+   
     min-height: 50px;
     display: flex;
     flex-direction: column;

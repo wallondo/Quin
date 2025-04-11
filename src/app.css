@@ -4,4 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
+}
+
+.board{
+    width: 5%;
+    height: 5%;
+    position: absolute;
 }
