@@ -156,7 +156,7 @@ export default function Main(){
                                      <ol>
                                        {
                                            proj.tecs.map((tec,po)=>(
-                                             <li> <small key={po+Math.random()*1000}>{tec}</small></li>
+                                             <li key={po+Math.random()*1000000}> <small >{tec}</small></li>
                                           ))
                                          }
                                      </ol>

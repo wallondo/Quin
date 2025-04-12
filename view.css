@@ -1,4 +1,8 @@
 @media screen and (max-width: 730px) and (min-width: 618px) {
+    .board{
+        top: 10%;
+        left: 45%;
+    }
     .projet_div{
         width: 47% !important;
     }
@@ -21,6 +25,10 @@
     }
 }
 @media screen and (max-width: 617px) and (min-width: 310px) {
+    .board{
+        top: 10%;
+        left: 45%;
+    }
     .div_me{
         flex-direction: column !important;
         align-items: center !important;
@@ -40,6 +48,10 @@
     }
 }
 @media screen and (max-width: 451px) and (min-width: 100px) {
+    .board{
+        top: 10%;
+        left: 45%;
+    }
     .div_me{
         flex-direction: column !important;
         align-items: center !important;
@@ -50,6 +62,10 @@
     }
 }
 @media screen and (max-width: 370px) {
+    .board{
+        top: 10%;
+        left: 45%;
+    }
     .div_me_about > span{
         flex-direction: column !important;
         justify-content: space-around !important;

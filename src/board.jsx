@@ -18,7 +18,7 @@ setTimeout(() => {
 
 
     return(
-         <div className="board" id="board" style={{top:y,left:x}}>
+         <div className="board" id="board" style={{transform:"translate("+x+"px,"+y+"px)"}}>
             <img src="/board.gif" alt="" />
         </div>
     )
