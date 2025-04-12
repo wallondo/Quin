@@ -6,39 +6,38 @@ export default function Main(){
     const [projetos,setProjetos] = useState([
         {
             title:"Wallondo Manager",
-            img:"/log.png",
+            img:"/wal.png",
             desc:"Um gerenciador de Lids e clientela , com o intuíto de gerir melhor e aproveitar o máximo possivel dos clientes",
-            tecs:["js","html","css","php","mongo","sql"],
-            link:"https://app.restang.com/projecto/"
+            tecs:["React","Mongo DB","Node.JS","APIs...","LIBs.."],
+            link:"https://wallondo.vercel.app/"
             
         },
         {
             title:"Casa Mobiliar",
-            img:"/log.png",
-            desc:"Um gerenciador de Lids e clientela , com o intuíto de gerir melhor e aproveitar o máximo possivel dos clientes",
-            tecs:["js","html","css","php","mongo","sql"],
-            link:"https://app.restang.com/projecto/"
-            
-        },
-        {
-            title:"SMORT_Phone_SHOPING",
-            img:"/log.png",
-            desc:"Um gerenciador de Lids e clientela , com o intuíto de gerir melhor e aproveitar o máximo possivel dos clientes",
-            tecs:["js","html","css","php","mongo","sql"],
-            link:"https://app.restang.com/projecto/"
+            img:"/emov.png",
+            desc:"Omde encontrar um Emobiliário para ti ou para a tua casa. A Casa Mobiliar oferece serviçcos desde pefsonalização até a criação e entrega em toda parte de luanda ",
+            tecs:["React","Tailung","css"],
+            link:"https://market-sooty-tau.vercel.app/"
             
         },
         {
             title:"Lea Já",
-            img:"/log.png",
-            desc:"Um gerenciador de Lids e clientela , com o intuíto de gerir melhor e aproveitar o máximo possivel dos clientes",
-            tecs:["js","html","css","php","mongo","sql"],
-            link:"https://app.restang.com/projecto/"
+            img:"/book.png",
+            desc:"Venha adquirir os seus ebooks , no melhor preço e na hora",
+            tecs:["React","css"],
+            link:"https://books-chi-smoky.vercel.app/"
+        },
+        {
+            title:"Portifólio Quinguri",
+            img:"/port.png",
+            desc:"Um portif'plio que retrata sobre o desenvolvedor web Quinguri",
+            tecs:["React","css","taylung css"],
+            link:"https://quinguri.vercel.app/"
             
         },
         {
             title:"Shoping Mobiliar",
-            img:"/log.png",
+            img:"/p1.jpg",
             desc:"Um gerenciador de Lids e clientela , com o intuíto de gerir melhor e aproveitar o máximo possivel dos clientes",
             tecs:["js","html","css","php","mongo","sql"],
             link:"https://app.restang.com/projecto/"
@@ -46,7 +45,7 @@ export default function Main(){
         },
         {
             title:"SELL PHONE",
-            img:"/log.png",
+            img:"/p1.jpg",
             desc:"Um gerenciador de Lids e clientela , com o intuíto de gerir melhor e aproveitar o máximo possivel dos clientes",
             tecs:["js","html","css","php","mongo","sql"],
             link:"https://app.restang.com/projecto/"
@@ -147,9 +146,10 @@ export default function Main(){
                      <article className="projetos_lists">
                         {
                             projetos.map((proj,pos)=>(
-                                <div className="projet_div" key={pos}>
-                                   <span></span>
-                                   <h3>{proj.title}</h3>
+                                <div className="projet_div" key={pos} >
+                                   <span style={{backgroundImage:"url("+proj.img+")"}}></span>
+                                   <h3>{proj.title}</h3> 
+                                   <a href={`${proj.link}`}>ver</a>
                                    <p>
                                       {proj.desc}
                                     </p>
@@ -160,7 +160,7 @@ export default function Main(){
                                           ))
                                          }
                                      </ol>
-                                   </div>
+                                </div>
                             ))
                         }
                      </article>

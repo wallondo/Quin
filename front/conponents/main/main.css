@@ -176,6 +176,15 @@
     color: transparent;
     font-weight: bold;
 }
+.projet_div a{
+    text-align: start;
+    display: flex;
+    height: 10px;
+    padding-left: .5rem;
+    justify-self: self-start;
+
+    color: rgba(156, 6, 124, 0.726);
+}
 .projet_div p{
     padding: .2rem .5rem;
     width: 100%;
@@ -192,7 +201,7 @@
 }
 .projet_div small{
     background-color: rgba(128, 128, 128, 0.247);
-    width: 60px;
+    min-width: 60px;
     height: 25px;
     align-items: center;
     justify-content: center;
