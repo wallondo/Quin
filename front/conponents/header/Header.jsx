@@ -31,11 +31,11 @@ export default function Header(){
         <div className="header_component">
               <header className="components_sub">
                     <ol className="nav_responsive left" id="nav_responsive">
-                       <li><a href="#sobre">Sobre</a></li>
-                       <li><a href="#projetos">Projetos</a></li>
-                       <li><a href="#experiencias">Experiencias</a></li>
-                       <li><a href="#qualidades">Qualidades</a></li>
-                       <li><a href="#contato">Contato</a></li>
+                       <li onClick={mastrar}><a href="#sobre">Sobre</a></li>
+                       <li onClick={mastrar}><a href="#projetos">Projetos</a></li>
+                       <li onClick={mastrar}><a href="#experiencias">Experiencias</a></li>
+                       <li onClick={mastrar}><a href="#qualidades">Qualidades</a></li>
+                       <li onClick={mastrar}><a href="#contato">Contato</a></li>
                     </ol>
                     <div>
                         <span className="log">

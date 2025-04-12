@@ -109,9 +109,27 @@ button{
 .left{
     left: -101% !important;
 }
-
-
-
+.load{
+   display: flex;
+   height: 30px;
+   width: 30px;
+   border: 2px rgb(201, 10, 137) dashed;
+   border-radius: 100%;  
+   margin: .2rem 0rem; 
+ 
+   animation: roda 1s 0s infinite ease-in-out;
+}
+@keyframes roda{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+.disabled{
+    cursor: not-allowed;
+}
 
 
 /* hover */
@@ -132,13 +150,13 @@ header a:hover{
     color: blueviolet;
 }
 .projet_div{
-    transition: all .5s;
+    transition: all .1s;
 }
 .projet_div:hover{
     transform: translateY(10px);
 }
 .main_sub_component_experiencias ol li{
-    transition: all .4s ease-in-out;
+    transition: all .1s ease-in-out;
 
 }
 .main_sub_component_experiencias ol li:hover{
@@ -146,14 +164,14 @@ header a:hover{
     background-color: rgb(76, 77, 77);
 }
 .main_sub_component_components_qualidades ol li{
-    transition: all .4s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 .main_sub_component_components_qualidades ol li:hover{
     background-color: rgb(41, 40, 40);
     transform: translateY(10px);
 }
 .option{
-    transition: all .8s;
+    transition: all .1s;
 }
 .option:hover{
     transform: translateY(5px);
