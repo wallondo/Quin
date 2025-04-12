@@ -21,6 +21,14 @@ export default function Main(){
             
         },
         {
+            title:"Ango-News",
+            img:"/news.png",
+            desc:"Encontre noticias a nivel nacional e internacional, claro que tambem podes criar e postar as tuas novidades",
+            tecs:["React","Nod","css","Mongo"],
+            link:"https://news-eight-lemon.vercel.app/"
+            
+        },
+        {
             title:"Lea Já",
             img:"/book.png",
             desc:"Venha adquirir os seus ebooks , no melhor preço e na hora",
@@ -33,14 +41,6 @@ export default function Main(){
             desc:"Um portif'plio que retrata sobre o desenvolvedor web Quinguri",
             tecs:["React","css","taylung css"],
             link:"https://quinguri.vercel.app/"
-            
-        },
-        {
-            title:"Shoping Mobiliar",
-            img:"/p1.jpg",
-            desc:"Um gerenciador de Lids e clientela , com o intuíto de gerir melhor e aproveitar o máximo possivel dos clientes",
-            tecs:["js","html","css","php","mongo","sql"],
-            link:"https://app.restang.com/projecto/"
             
         },
         {
@@ -149,7 +149,7 @@ export default function Main(){
                                 <div className="projet_div" key={pos} >
                                    <span style={{backgroundImage:"url("+proj.img+")"}}></span>
                                    <h3>{proj.title}</h3> 
-                                   <a href={`${proj.link}`}>ver</a>
+                                   <a href={`${proj.link}`} target="_blank">ver</a>
                                    <p>
                                       {proj.desc}
                                     </p>
