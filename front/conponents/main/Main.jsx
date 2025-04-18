@@ -21,6 +21,14 @@ export default function Main(){
             
         },
         {
+            title:"LOve-History",
+            img:"/p1.jpg",
+            desc:"Eternize o seu amor de forma sem igual!!!",
+            tecs:["React","Nod","css"],
+            link:"https://history-dusky.vercel.app/"
+            
+        },
+        {
             title:"Ango-News",
             img:"/news.png",
             desc:"Encontre noticias a nivel nacional e internacional, claro que tambem podes criar e postar as tuas novidades",
