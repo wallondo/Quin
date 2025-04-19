@@ -22,7 +22,7 @@ export default function Main(){
         },
         {
             title:"LOve-History",
-            img:"/p1.jpg",
+            img:"/love.png",
             desc:"Eternize o seu amor de forma sem igual!!!",
             tecs:["React","Nod","css"],
             link:"https://history-dusky.vercel.app/"
@@ -37,19 +37,19 @@ export default function Main(){
             
         },
         {
-            title:"Lea Já",
-            img:"/book.png",
-            desc:"Venha adquirir os seus ebooks , no melhor preço e na hora",
-            tecs:["React","css"],
-            link:"https://books-chi-smoky.vercel.app/"
-        },
-        {
             title:"Portifólio Quinguri",
             img:"/port.png",
             desc:"Um portif'plio que retrata sobre o desenvolvedor web Quinguri",
             tecs:["React","css","taylung css"],
             link:"https://quinguri.vercel.app/"
             
+        },
+        {
+            title:"Lea Já",
+            img:"/book.png",
+            desc:"Venha adquirir os seus ebooks , no melhor preço e na hora",
+            tecs:["React","css"],
+            link:"https://books-chi-smoky.vercel.app/"
         },
         {
             title:"SELL PHONE",
@@ -77,8 +77,8 @@ export default function Main(){
                 <section className="main_sub_component_sec">
                     <h1>Olá, eu sou o <br /> <span className="name">Quinguri.</span></h1>
                     <small>Sadraque <span className="name">Quinguri</span></small>
-                    <h2>Desenvolvedor Front-End, <br /> 
-                       <span className="back">Tanbém atuo como Desenvolvedor Back-End </span> <br />
+                    <h2>Desenvolvedor Full-Stack, <br /> 
+                       <span className="back">Especializado como Desenvolvedor Front-End </span> <br />
                      Vamos trabalhar?</h2>
                       <a href="#projetos" className="bt_link">Ver Projetos</a>
                     <div>
@@ -111,7 +111,7 @@ export default function Main(){
                                             <li> <span className="rocho">Email:</span> quinguri01@gmail.com</li>
                                         </ol>
                                         <ol>
-                                            <li><span className="rocho">Experiencia:</span> +2 anos</li>
+                                            <li><span className="rocho">Experiencia:</span> 2+ anos</li>
                                             <li><span className="rocho">Localização:</span> Luanda/Angola</li>
                                         </ol>
                                      </span>
@@ -151,6 +151,7 @@ export default function Main(){
                 </section>
                 <section className="main_sub_component_projetos  secion" id="projetos">
                      <h2>Meus <span className="mim">Projetos</span></h2>
+                     <h3>Em parte os mesmos projetos estão em fase de finalização. <br /> Caso desejar dar algumas dicas , força!</h3>
                      <article className="projetos_lists">
                         {
                             projetos.map((proj,pos)=>(

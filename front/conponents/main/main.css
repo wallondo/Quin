@@ -149,9 +149,10 @@
 .projet_div{
     width: 30%;
     min-width: 280px;
+    max-width: 300px;
     /* max-width: 300px; */
     flex-grow: 1;
-    min-height: 300px;
+    min-height: 400px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
